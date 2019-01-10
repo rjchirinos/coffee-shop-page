@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Pacifico|Raleway");
+html,
+body {
+  background: #f8f3e6;
+  width: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif; }
+
+#header {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  #header .header-message {
+    color: white;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #header .header-message .message-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Oswald", sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      text-transform: uppercase; }
+      #header .header-message .message-title .message {
+        padding: 10px; }
+    #header .header-message p {
+      font-size: 18px; }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 0;
+  left: 0; }
+  .navbar .navbar-title {
+    color: #f8f3e6;
+    font-size: 32px;
+    font-family: "Pacifico", cursive;
+    padding: 5px; }
+  .navbar .navbar-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between; }
+  .navbar .navbar-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    flex-basis: 60%;
+    font-size: 14px; }
+    .navbar .navbar-menu .menu-item,
+    .navbar .navbar-menu a {
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      list-style: none;
+      text-decoration: none;
+      height: 100%; }
+    .navbar .navbar-menu a:hover {
+      color: #e7cc8f; }
+
+/*# sourceMappingURL=main.css.map */
