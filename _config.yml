@@ -19,6 +19,12 @@ message-title: Premiun Coffee Brands
 message-description: >-
   Coffee Shop is the place where you can get flavorful coffee 
   strains from global elite brands and roasters at very affordable price.
+about-message: >-
+  Coffee Shop is just that. What began as an idea and as two individuals’ 
+  desire to love what they did for a living has quickly turned into some 
+  stomping ground for people and cultivate an environment of ideal-seeking. 
+  Giving back to and servicing the community is the foundation of Birch’s philosophy.
+  We care for people first and coffee is a very close second.
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
